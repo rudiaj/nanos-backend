@@ -1,16 +1,16 @@
 # nanos-backend
 
-1.In the project root directory run:
+1. in the project root directory run:
 
 ### `npm i`
 
 Install project dependencies.
 
-2. Set initial documents to DB:
+2.set initial documents to DB:
 
 ### `node scripts`
 
-3.Run the server:
+3.run the server:
 
 ### `npm start`
 
