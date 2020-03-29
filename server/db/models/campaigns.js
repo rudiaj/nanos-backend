@@ -23,8 +23,6 @@ const Campaigns = mongoose.model(
   )
 );
 
-module.exports.isValid = values => !Campaigns(values).validateSync();
-
 module.exports.create = values => {
   const campaign = _.omit(values, ["_id"]);
 
