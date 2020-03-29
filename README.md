@@ -1,4 +1,4 @@
-# nanos-backend
+#nanos-backend
 
 1. in the project root directory run:
 
