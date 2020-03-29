@@ -29,4 +29,8 @@ module.exports.create = values => {
   return Campaigns(campaign).save();
 };
 
+module.exports.deleteAll = () => {
+  return Campaigns.deleteMany({});
+};
+
 module.exports.get = () => Campaigns.find();

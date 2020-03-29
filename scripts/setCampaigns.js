@@ -3,7 +3,10 @@ const db = require("../server/db");
 const { initialCampaigns } = require("../server/constants");
 
 module.exports = async () => {
-  try {
+
+  try{
+    await db.Campaigns.deleteAll();
+
     const [campaigns] = await Promise.all([
       db.Campaigns.create(initialCampaigns[0]),
       db.Campaigns.create(initialCampaigns[1]),
@@ -11,7 +14,8 @@ module.exports = async () => {
     ]);
 
     await campaigns.save();
-  } catch (error) {
-    console.log(error);
+  }
+  catch(error){
+    console.log(error)
   }
 };
