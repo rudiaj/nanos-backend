@@ -1,4 +1,4 @@
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 
 module.exports.mongo = {
   uri: process.env.MONGO_URL,
