@@ -13,7 +13,7 @@
   "scripts": {
     "scripts": "node scripts",
     "start": "node scripts && node server",
-    "dev": "node scripts && node server"
+    "dev": "node scripts && nodemon server"
   },
   "browserslist": {
     "production": [
