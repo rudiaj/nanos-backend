@@ -10,9 +10,12 @@ Install project dependencies.
 
 ### `node scripts`
 
+3.run the server in dev mode:
+
+### `npm run dev`
+
 3.run the server:
 
 ### `npm start`
 
 live demo: https://nanos-app.herokuapp.com/api/v1/campaigns
-
