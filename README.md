@@ -14,3 +14,5 @@ Install project dependencies.
 
 ### `npm start`
 
+live demo: https://nanos-app.herokuapp.com/api/v1/campaigns
+
