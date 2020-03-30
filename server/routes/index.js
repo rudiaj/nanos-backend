@@ -1,9 +1,9 @@
 const router = require("express").Router();
 
-const api = require("./api");
+const campaigns = require("./campaigns");
 
 module.exports = () => {
-  api(router);
+  campaigns(router);
 
   return router;
 };

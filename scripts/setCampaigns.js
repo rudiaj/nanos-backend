@@ -1,6 +1,6 @@
 const db = require("../server/db");
 
-const { initialCampaigns } = require("../server/constants");
+const { initialCampaigns } = require("./initialCampaigns");
 
 module.exports = async () => {
 
