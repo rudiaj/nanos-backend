@@ -9,6 +9,6 @@ module.exports = async (req, res) => {
       .json(campaigns)
       .end();
   } catch (error) {
-    return errors.respond(res, error);
+    return res.status(500).end();
   }
 };
